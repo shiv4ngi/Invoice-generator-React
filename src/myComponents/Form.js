@@ -4,16 +4,16 @@ import { ImageUpload } from "./ImageUpload";
 import InvoiceNum from "./InvoiceNum";
 import DatePick from "./DatePick";
 import CreateArea from "./CreateArea";
-import { useState } from "react";
+// import { useState } from "react";
 
 function Form() {
-  const [notes, setNotes] = useState([]);
+  // const [notes, setNotes] = useState([]);
 
-  function addNote(newNote) {
-    setNotes((prevNotes) => {
-      return [...prevNotes, newNote];
-    });
-  }
+  // function addNote(newNote) {
+  //   setNotes((prevNotes) => {
+  //     return [...prevNotes, newNote];
+  //   });
+  // }
 
   return (
     <div className="invoice-box">
@@ -50,7 +50,7 @@ function Form() {
         </tr>
         <tbody>
           <tr className="heading">
-            <td className="td">Invoice Date</td>
+            <td>Invoice Date</td>
             <td className="td">Due Date</td>
           </tr>
 
